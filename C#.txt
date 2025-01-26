@@ -1,0 +1,161 @@
+//Declare a variable of data type int with name empID 
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _01_Basic_Assignment
+{
+    internal class _1empId
+    {
+        
+        static void Main()
+        {
+            
+            Console.Write("Enter a empid: ");
+            
+            int empId = int.Parse(Console.ReadLine());
+            
+            String empName = "Ravi”;
+            Console.WriteLine("Entered name is: " + empName);
+           
+            Console.ReadKey();
+
+        }
+}
+}
+
+
+//Declare a variable of data type string with name empName
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+namespace empname
+{
+internal class Program
+{
+static void Main(string[] args
+{
+string empName;
+
+empName = "Ravi";
+Console.WriteLine("Entered emp name is: “ + empName);
+Console.ReadKey();
+}
+}
+}
+
+//Assign a value 5 for the empId variable and print the value of empId on console
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _13assignValue5
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+           
+            int empId = 5;
+
+            
+            Console.WriteLine("Employee ID: " + empId);
+            Console.ReadKey();
+        }
+    }
+}
+
+// Assign a value "Puja" for the empName variable and print the value of empId on
+console
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace assignstring
+{
+    internal class Program
+    {
+        
+        static void Main(string[] args)
+        {
+            
+            string empName = "Puja”;
+            
+            Console.WriteLine(empName);
+            Console.ReadKey();
+        }
+    }
+}
+
+// Write a program to check whether it is odd or even
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace oddoreven
+{
+    internal class Program
+    {
+        
+        static void Main(string[] args)
+       
+            Console.Write("Enter a number to check if it's odd or even: ");
+            int number = int.Parse(Console.ReadLine());
+            if (number % 2 == 0)
+           {
+                Console.WriteLine("Output - even");
+            }
+            else
+            {
+                
+                Console.WriteLine("Output - odd");
+            }
+            
+            Console.ReadKey();
+        }
+    }
+}
+
+// Write a program to swap 2 numbers
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace swap2num
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter first number to swap:”);
+            int num1 = int.Parse(Console.ReadLine());
+
+            Console.Write("Enter second number to swap: ");
+            
+            int num2 = int.Parse(Console.ReadLine());
+            int temp = num1;
+            num1 = num2;
+            num2 = temp;
+
+            Console.WriteLine("Output - Swapped numbers: " + num1 + "," + num2);
+            Console.ReadKey();
+        }
+    }
+}
